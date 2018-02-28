@@ -15,8 +15,8 @@ html
 div.container-header
 {
     background-image: url(../img/back1.jpg);
-    height: 100vh;
-    background-size: 100% 70%;
+    height: 70vh;
+    background-size: 100% 100%;
     background-position: top center;
     opacity: 0.9;
     background-repeat: no-repeat;
@@ -38,6 +38,22 @@ p
 {
     margin: 0;
     padding: 0;
+    text-align: center;
+}
+
+#firstp
+{
+
+    padding-right: 70%;
+   color: green;
+}
+#secondp
+{
+    padding-right: 16%;
+}
+#thirdp
+{
+    padding-left: 47%;
 }
 
 div#firstp, div#secondp, div#thirdp
@@ -53,3 +69,26 @@ div#firstp, div#secondp, div#thirdp
 
 
 /** Bar Menu **/
+
+.container-menu
+{
+    background-color: #353535;
+}
+
+nav.menu{
+text-align: center;
+font-size: 2.3em;
+padding: 10px 10px;
+
+}
+
+nav.menu a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    transition: all .3s ease;
+}
+
+nav.menu a:hover{
+background-color: #f24918;
+}
